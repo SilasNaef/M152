@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatModule } from './mat/mat.module';
+import { HelloworldComponent } from './helloworld/helloworld.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HelloworldComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatModule
   ],
   providers: [],
   bootstrap: [AppComponent]
