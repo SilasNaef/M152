@@ -1,0 +1,27 @@
+mat-card {
+  width: 75%;
+  margin: auto;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas: "title title"
+                       "content icbutton"
+}
+
+#title {
+  grid-area: title;
+}
+
+#content {
+  grid-area: content;
+}
+
+#icbutton {
+  grid-area: icbutton;
+  justify-self: right;
+  margin-right: 5%;
+}
