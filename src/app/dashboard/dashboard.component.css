@@ -4,18 +4,15 @@ mat-card {
   max-width: 300px;
   margin: auto;
 }
-
 #container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   text-align: right;
 }
-
 h1 {
   padding-top: 50px;
   text-align: center;
 }
-
 a {
   color: white;
 }
