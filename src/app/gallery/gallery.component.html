@@ -1,0 +1,5 @@
+<h1>Gallery</h1>
+<div id="container" >
+  <app-galleryitem *ngFor="let mountain of mountains" [imgUrl]="mountain.imgUrl" [mountainName]="mountain.mountainName" [mountainHeight]="mountain.mountainHeight" ></app-galleryitem>
+</div>
+

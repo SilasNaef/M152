@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HelloworldComponent } from './helloworld/helloworld.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NghomeComponent } from './nghome/nghome.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryitemComponent } from './galleryitem/galleryitem.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NghomeComponent } from './nghome/nghome.component';
     HelloworldComponent,
     NghomeComponent,
     DashboardComponent,
-    NghomeComponent
+    NghomeComponent,
+    GalleryComponent,
+    GalleryitemComponent
   ],
   imports: [
     BrowserModule,

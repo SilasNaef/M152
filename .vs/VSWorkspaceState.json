@@ -3,9 +3,11 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\helloworld",
-    "\\src\\app\\mat"
+    "\\src\\app\\dashboard",
+    "\\src\\app\\gallery",
+    "\\src\\app\\galleryitem",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\helloworld\\helloworld.component.css",
+  "SelectedNode": "\\src\\app\\galleryitem\\galleryitem.component.ts",
   "PreviewInSolutionExplorer": false
 }
