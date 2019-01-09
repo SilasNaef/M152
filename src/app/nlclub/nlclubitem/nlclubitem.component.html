@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-content>
+    <table style="width:100%">
+        <tr>
+          <mat-card-title>{{ nl_club.nl_name }}</mat-card-title>
+        </tr>
+        <tr height="300px">
+          <img mat-card-image [src]="nl_club.nl_logo" alt="{{ nl_club.nl_name }}" width="100px">
+        </tr>
+        <tr>
+            <button mat-fab routerLink="{{nl_club.nl_id}}">
+              <mat-icon>home</mat-icon>
+            </button>
+        </tr>
+      </table>
+  </mat-card-content>
+</mat-card>

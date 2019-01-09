@@ -10,6 +10,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NghomeComponent } from './nghome/nghome.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryitemComponent } from './galleryitem/galleryitem.component';
+import { MountainListComponent } from './mountain/mountain-list/mountain-list.component';
+import { MountainItemComponent } from './mountain/mountain-item/mountain-item.component';
+import { VideoComponent } from './video/video.component';
+import { NlclubitemComponent } from './nlclub/nlclubitem/nlclubitem.component';
+import { NlclublistComponent } from './nlclub/nlclublist/nlclublist.component';
+import { NlclubsiteComponent } from './nlclub/nlclubsite/nlclubsite.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,13 @@ import { GalleryitemComponent } from './galleryitem/galleryitem.component';
     DashboardComponent,
     NghomeComponent,
     GalleryComponent,
-    GalleryitemComponent
+    GalleryitemComponent,
+    MountainListComponent,
+    MountainItemComponent,
+    VideoComponent,
+    NlclubitemComponent,
+    NlclublistComponent,
+    NlclubsiteComponent,
   ],
   imports: [
     BrowserModule,

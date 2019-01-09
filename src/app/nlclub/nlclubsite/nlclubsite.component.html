@@ -1,0 +1,59 @@
+<mat-card>
+      <mat-card-content>
+          <div id="container">
+                <mat-card>
+                    <mat-card-content>
+                    <div id="table1">
+                      <mat-card-title style="font-weight: bold" >Leitung</mat-card-title>
+                      <p style="font-weight: bold">CEO</p>
+                      <p>{{club.nl_ceo}}</p>
+                      <p style="font-weight: bold">Sportchef</p>
+                      <p>{{club.nl_sportchef}}</p>
+                      <p style="font-weight: bold">Coach</p>
+                      <p>{{club.nl_coach}}</p>
+                      <p style="font-weight: bold">Gründungsjahr</p>
+                      <p>{{club.nl_founderyear}}</p>
+                    </div>
+                  </mat-card-content>
+                </mat-card>
+                <mat-card>
+                    <mat-card-content>
+                    <div id="table2">
+                        <mat-card-title style="font-weight: bold">Stadion</mat-card-title>
+                        <p>{{club.nl_stadion}}</p>
+                        <p style="font-weight: bold">Sitzplätze</p>
+                        <p>{{club.nl_chairs}}</p>
+                        <p style="font-weight: bold">Stehplätze</p>
+                        <p>{{club.nl_stand}}</p>
+                        <p style="font-weight: bold">Stehplätze</p>
+                        <p>{{club.nl_total}}</p>
+                      </div>
+                    </mat-card-content>
+                  </mat-card>
+                  <mat-card>
+                    <mat-card-content>
+                      <div id="table2">
+                        <mat-card-title style="font-weight: bold">Meisterschaften</mat-card-title>
+                        <p *ngFor="let title of club.championshipTitle">{{ title }}</p>
+                      </div>
+                    </mat-card-content>
+                  </mat-card>
+                  <table width= 500px>
+                      <tr>
+                          <td><p style="font-weight: bold">Adresse</p></td>
+                          <td><p>{{club.nl_address}}</p></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td>{{club.nl_postalcode }} {{club.nl_city }}</td>
+                      </tr>
+                      <tr>
+                          <td><p style="font-weight: bold">EMail Adresse</p></td>
+                          <td><p>{{club.nl_email}}</p></td>
+                      </tr>
+                  </table>
+                <img mat-card-image [src]="club.nl_logo" alt="{{ club.nl_name }}" width="100px">
+                <img mat-card-image [src]="club.nl_photo" alt="{{ club.nl_name }}" width="100px">
+              </div>
+     </mat-card-content>
+</mat-card>

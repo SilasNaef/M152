@@ -3,11 +3,13 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\dashboard",
     "\\src\\app\\gallery",
-    "\\src\\app\\galleryitem",
-    "\\src\\assets"
+    "\\src\\app\\mountain",
+    "\\src\\app\\mountain\\mountain-item",
+    "\\src\\app\\mountain\\mountain-list",
+    "\\src\\app\\routing",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\galleryitem\\galleryitem.component.ts",
+  "SelectedNode": "\\src\\app\\mountain\\mountain.model.ts",
   "PreviewInSolutionExplorer": false
 }
